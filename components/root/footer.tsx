@@ -1,12 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import {useToast} from "@/hooks/use-toast";
 import React from "react";
 
 export default function Footer() {
-    const { toast } = useToast();
-    const [email, setEmail] = React.useState("");
 
     const tripIdeas = [
         {
@@ -45,16 +42,6 @@ export default function Footer() {
             href: "/",
         },
     ];
-
-    const handleSubscribe = async () => {
-        if (!email || !/\S+@\S+\.\S+/.test(email)) {
-            toast({
-                title: "Invalid email address",
-                description: "Please enter a valid email address."
-            });
-            return;
-        }
-    }
 
     return (
         <footer className="py-10 px-6 md:px-8 bottom-0 border-t">
