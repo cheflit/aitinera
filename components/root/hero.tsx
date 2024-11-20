@@ -9,13 +9,13 @@ export default function Hero() {
     const images = [
         "/hero-images/bora-bora.jpg",
         "/hero-images/cairo.jpg",
-        "/hero-images/chichen-itza.jpg",
+        // "/hero-images/chichen-itza.jpg",
         "/hero-images/egypt-temple.jpg",
         "/hero-images/las-vegas.webp",
-        "/hero-images/northern-lights.jpg",
+        // "/hero-images/northern-lights.jpg",
         "/hero-images/sunrise-coast.jpg",
         "/hero-images/swiss-alps.jpg",
-        "/hero-images/petra.jpg",
+        // "/hero-images/petra.jpg",
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
