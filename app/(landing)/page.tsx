@@ -1,7 +1,7 @@
-import Hero from "@/components/root/hero";
-import Footer from "@/components/root/footer";
-import HowSection from "@/components/root/how-section";
-import Header from "@/components/root/header";
+import Hero from "@/components/landing/hero";
+import Footer from "@/components/landing/footer";
+import HowSection from "@/components/landing/how-section";
+import Header from "@/components/landing/header";
 import React from "react";
 
 export default function Home() {
