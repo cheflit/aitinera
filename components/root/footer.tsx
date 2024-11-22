@@ -27,15 +27,15 @@ export default function Footer() {
     const resources = [
         {
             title: "Terms of Service",
-            href: "/",
+            href: "/terms",
         },
         {
             title: "Privacy",
-            href: "/",
+            href: "/privacy",
         },
         {
             title: "Contact Us",
-            href: "/",
+            href: "/contact-us",
         },
         {
             title: "TikTok",
