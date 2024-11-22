@@ -1,5 +1,5 @@
 import React from "react";
-import { MapPin, Calendar, Bot } from "lucide-react";
+import {MapPin, Calendar, Bot, SlidersHorizontalIcon} from "lucide-react";
 
 const steps = [
     {
@@ -13,6 +13,11 @@ const steps = [
         description: "Choose your travel dates, and we'll optimize your itinerary to make the most of your time.",
     },
     {
+        icon: SlidersHorizontalIcon,
+        title: "Set The Vibe",
+        description: "Choose your budget, travel style, and companions to tailor your perfect trip.",
+    },
+    {
         icon: Bot,
         title: "AI Creates Your Itinerary",
         description: "Our AI analyzes thousands of options to create a personalized itinerary tailored to your preferences.",
@@ -21,15 +26,19 @@ const steps = [
 
 export default function HowSection(){
     return (
-        <section className="w-full py-12 md:py-24 lg:py-24 bg-gray-100 dark:bg-gray-800">
-            <div className="container mx-auto px-4 md:px-6">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-20">How It Works</h2>
-                <div className="grid gap-10 mb-8 sm:grid-cols-1 md:grid-cols-3">
+        <section className="py-40 bg-gray-50 px-8">
+            <div className="container mx-auto">
+                <h2 className="font-bold text-4xl md:text-5xl text-center mb-20">
+                    How It Works
+                </h2>
+                <div className="grid gap-10 mb-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center">
                     {steps.map((step, index) => (
-                        <div key={index} className="flex flex-col items-center space-y-2 p-4 rounded-lg">
+                        <div key={index} className="flex flex-col items-center space-y-2 p-4">
                             <step.icon className="h-8 w-8 text-primary" />
-                            <h3 className="text-xl font-bold">{step.title}</h3>
-                            <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
+                            <h3 className="text-xl font-bold">
+                                {step.title}
+                            </h3>
+                            <p className="text-sm text-gray-600 text-center max-w-[350px]">
                                 {step.description}
                             </p>
                         </div>

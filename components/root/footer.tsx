@@ -44,14 +44,14 @@ export default function Footer() {
     ];
 
     return (
-        <footer className="py-10 px-6 md:px-8 bottom-0 border-t">
+        <footer className="bottom-0 py-10 px-8 border-t">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:justify-items-center">
                 <div className="space-y-2">
                     <span className="font-semibold">Need Inspiration?</span>
                     <ul>
                         {tripIdeas.map((trip, index) => (
                             <li key={index}>
-                                <Link href={trip.href} className="hover:underline underline-offset-2 text-gray-500">
+                                <Link href={trip.href} className="hover:underline underline-offset-2 text-gray-600">
                                     {trip.title}
                                 </Link>
                             </li>
@@ -63,7 +63,7 @@ export default function Footer() {
                     <ul>
                         {resources.map((resource, index) => (
                             <li key={index}>
-                                <Link href={resource.href} className="hover:underline underline-offset-2 text-gray-500">
+                                <Link href={resource.href} className="hover:underline underline-offset-2 text-gray-600">
                                     {resource.title}
                                 </Link>
                             </li>
@@ -71,8 +71,8 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="mt-8 pt-8 text-center text-xs text-gray-500">
-                <p>&copy; {new Date().getFullYear()} ai/tinera. All rights reserved. A product of tm/eight.</p>
+            <div className="mt-8 pt-6 text-center text-xs text-gray-500 border-t">
+                <p>&copy; {new Date().getFullYear()} ai/tinera. All rights reserved. A product by tm/eight.</p>
             </div>
         </footer>
     )
