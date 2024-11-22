@@ -128,7 +128,7 @@ function PrivacyContent() {
                     <li>Withdrawing consent (where applicable)</li>
                 </ul>
                 <p className="mt-2">
-                    To exercise these rights, please contact us using the information provided in the "Contact Us" section.
+                    To exercise these rights, please contact us using the information provided in the &quot;Contact Us&quot; section.
                 </p>
             </Section>
 
@@ -143,7 +143,7 @@ function PrivacyContent() {
             <Section id="changes-to-this-policy" title="Changes to This Policy">
                 <p>
                     We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new
-                    Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy
+                    Privacy Policy on this page and updating the &quot;Last Updated&quot; date. You are advised to review this Privacy
                     Policy periodically for any changes.
                 </p>
             </Section>

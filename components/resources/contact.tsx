@@ -22,7 +22,7 @@ export default function Contact() {
                     <CardHeader>
                         <CardTitle>Get in Touch</CardTitle>
                         <CardDescription>
-                            We'd love to hear from you. Please fill out this form and we'll get back to you as soon as possible.
+                            We&apos;d love to hear from you. Please fill out this form and we&apos;ll get back to you as soon as possible.
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
