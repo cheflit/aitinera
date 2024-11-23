@@ -43,7 +43,6 @@ export default function TripPlannerForm() {
             alert('Please fill in all required fields')
             return
         }
-        // Here you would typically send the data to your backend or AI service
         console.log({ destination, startDate, endDate, selectedVibes, budget, additionalDetails })
         router.push('/planning') // Redirect to a planning page (you'll need to create this)
     }
