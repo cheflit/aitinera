@@ -4,6 +4,7 @@ import "./globals.css";
 import React from "react";
 import {Toaster} from "@/components/ui/toaster";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = localFont({
     src: "./fonts/GeistVF.woff",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
                 <SpeedInsights />
                 {children}
+                <Analytics />
                 <Toaster />
             </body>
         </html>
