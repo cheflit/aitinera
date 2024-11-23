@@ -16,6 +16,9 @@ export default function Hero() {
         // "/hero-images/northern-lights.jpg",
         "/hero-images/sunrise-coast.jpg",
         "/hero-images/swiss-alps.jpg",
+        // turkey hot air ballon
+        // thailand lantern festival
+        // sunset in santorini
         // "/hero-images/petra.jpg",
     ];
 
@@ -56,7 +59,7 @@ export default function Hero() {
                     </div>
 
                     <Link href="/">
-                        <Button size="lg" className="shadow-none text-white">
+                        <Button size="lg" className="shadow-2xl text-white">
                             Start Planning That Trip!<PlaneTakeoff />
                         </Button>
                     </Link>

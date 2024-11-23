@@ -1,8 +1,9 @@
-import React from 'react'
-import Contact from "@/components/resources/contact";
+import ContactUs from "@/components/root/resources/contact-us";
 
-export default function ContactUs() {
+export default function Page() {
     return (
-        <Contact />
+        <div className="py-40 px-8 flex items-center justify-center">
+            <ContactUs />
+        </div>
     )
 }
