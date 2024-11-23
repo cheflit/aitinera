@@ -53,13 +53,13 @@ export default function Hero() {
                             <br/>No Strings Attached!
                         </h1>
                         <p className="max-w-[800px] text-white text-sm md:text-md lg:text-xl">
-                            We create personalized itineraries based on your preferences.
+                            We create personalized trip itineraries based on your preferences.
                             <br/> Best of all, no affiliate deals or strings attached. Meaning, you get the best recommendations for your trip!
                         </p>
                     </div>
 
-                    <Link href="/">
-                        <Button size="lg" className="shadow-2xl text-white">
+                    <Link href="/trip-planner">
+                        <Button size="xl" className="shadow-none text-md">
                             Start Planning That Trip!<PlaneTakeoff />
                         </Button>
                     </Link>

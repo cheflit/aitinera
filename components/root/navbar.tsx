@@ -10,7 +10,7 @@ export default function Navbar() {
         <header className="top-0 z-50 px-20 py-8 flex bg-gray-50 border-b">
             <div className="container flex mx-auto justify-between items-center">
                 <Link href="/" className="flex items-center space-x-2">
-                    <span className="text-xl font-semibold">
+                    <span className="text-2xl font-bold">
                         <span className="text-primary">ai</span>/tinera
                     </span>
                 </Link>
