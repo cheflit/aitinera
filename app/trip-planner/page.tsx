@@ -165,7 +165,7 @@ export default function TripPlannerForm() {
                 />
             </div>
 
-            <Button type="submit" className="w-full">Let's Plan It!</Button>
+            <Button type="submit" className="w-full">Let&apos;s Plan It!</Button>
         </form>
     )
 }
